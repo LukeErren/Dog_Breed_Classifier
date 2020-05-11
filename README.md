@@ -9,7 +9,8 @@ This repository contains the files for the capstone project Dog Breed Classifier
 
 # Directories
 * templates - directory with HTML files used by the web application
-* data- directory with the trained data, used by the web application
+* data - directory with the trained data, used by the web application
+* Test_Images - contains the images who where used for test the algorithm 
 
 # Installation
 *Workbook : Copy the dog_app.ipynb to your Anaconda Workbook directory.
