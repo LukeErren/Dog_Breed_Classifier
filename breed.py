@@ -36,7 +36,7 @@ def find_dog_breed_on_humans_and_dogs(image_location) :
     plt.tick_params( axis='both', which='both', bottom=False, top=False,  left=False, right=False, labelleft=False,
                     labelbottom=False)
     plt.xlabel(label, fontsize=14 )
-    plt.savefig('result.png', bbox_inches='tight')
+    plt.savefig('result.png', bbox_inches='tight', transparent=True )
 
 def path_to_tensor(img_path):
     # loads RGB image as PIL.Image.Image type
@@ -68,7 +68,10 @@ def extract_Xception(tensor):
     return Xception(weights='imagenet', include_top=False).predict(preprocess_input(tensor))
 
 # Load variables
-with open('Data/dog_names.pkl', "rb") as fp:   
+print ("Load dog names")
+with open('data/dog_names.pkl', "rb") as fp:   
     dog_names = pickle.load(fp)    
-face_cascade = cv2.CascadeClassifier('Data/haarcascade_frontalface_alt.xml')
-Xception_model = keras.models.load_model('Data/trained_breed_model.pkl')
+print ("Load face cascade")
+face_cascade = cv2.CascadeClassifier('data/haarcascade_frontalface_alt.xml')
+print ("Load model")
+Xception_model = keras.models.load_model('data/trained_breed_model.pkl')
