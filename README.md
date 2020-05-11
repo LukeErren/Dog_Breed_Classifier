@@ -12,12 +12,10 @@ This repository contains the files for the capstone project Dog Breed Classifier
 * data- directory with the trained data, used by the web application
 
 # Installation
-Workbook : Copy the dog_app.ipynb to your Anaconda Workbook directory.
-Application : start web application with 'python run.py'
+*Workbook : Copy the dog_app.ipynb to your Anaconda Workbook directory.
+*Application : start web application with 'python run.py'
 
 # Dependency
-Install all requered packages. 
-
 The web application is developed with Flask version 1.1.1 and Keras version 2.3.1
 
 
