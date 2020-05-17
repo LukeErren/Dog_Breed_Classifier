@@ -1,9 +1,8 @@
 # Dog_Breed_Classifier
 
-This repository contains the files for the Udacity capstone project Dog Breed Classifier. The original Udacity's repo can be found [here](https://github.com/udacity/deep-learning-v2-pytorch/tree/master/project-dog-classification)
+This repository contains the files for the Udacity capstone project Dog Breed Classifier. The original Udacity's repo can be found [here](https://github.com/udacity/deep-learning-v2-pytorch/tree/master/project-dog-classification). I've choosen to write an application instead of the blog post. The application is also included in this repository.
 
 # Project Overview
-
 
 ## Files
 * dog_app.ipynb - The Jupiter Notebook for training the model
